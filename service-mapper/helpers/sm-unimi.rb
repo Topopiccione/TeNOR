@@ -97,6 +97,8 @@ class MapperUnimi < Sinatra::Application
 		ir_address       = requestbody_hash['infr_repo_api']
 		catalogs_address = requestbody_hash['tenor_api']
 
+		puts ir_address
+
 		# No more simulations...
 		ir_simulation_requested = "false"
 		ns_simulation_requested = "false"
